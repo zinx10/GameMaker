@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////
 
 // Set target
-target = Player.inst;
+target = self;
 // Create sound engine
 emitter_main = audio_emitter_create();
 // Set sound engine to target
